@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "label": "What is React?",
+    "content":
+      "React is a JavaScript library used for building user interfaces using components."
+  },
+  {
+    "id": 2,
+    "label": "What is useState?",
+    "content":
+      "useState is a React Hook that allows functional components to manage state."
+  },
+  {
+    "id": 3,
+    "label": "What is useEffect?",
+    "content":
+      "useEffect is a React Hook used to handle side effects like API calls and subscriptions."
+  },
+  {
+    "id": 4,
+    "label": "What is JSX?",
+    "content":
+      "JSX is a syntax extension that allows writing HTML-like code inside JavaScript."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "expanded":false,
+    "name": "public",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 2,
+        "name": "vite.svg",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "expanded":false,
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "components",
+        "isFolder": true,
+        "expanded":false,
+        "children": [
+          {
+            "id": 4,
+            "name": "Home.jsx",
+            "isFolder": false
+          },
+          {
+            "id": 5,
+            "name": "Search.jsx",
+            "isFolder": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "nodeModules",
+    "isFolder": true,
+    "expanded":false,
+    "children": [
+      {
+        "id": 7,
+        "name": "package.json",
+        "isFolder": false
+      },
+      {
+        "id": 8,
+        "name": "package-lock.json",
+        "isFolder": false
+      }
+    ]
+  }
+]
