@@ -56,10 +56,10 @@ const Home = () => {
     {/* <ChipsInput/> */}
     {/* <ToDoList/> */}
     {/* {<Accordion/>} */}
-    {/* <StaleState/> */}
+    <StaleState/>
     {/* <RaceCondition/> */}
     {/* <InfiniteScroll/> */}
-    <VirtualizedList/>
+    {/* <VirtualizedList/> */}
     </div>
   )
 }
