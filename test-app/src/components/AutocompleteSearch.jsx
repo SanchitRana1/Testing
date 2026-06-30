@@ -53,13 +53,13 @@ const AutocompleteSearch = () => {
     <div>
       <h1 className='text-3xl font-bold text-center m-10'>AUTO COMPLETE SEARCH BAR</h1>
       <div className='flex flex-col mx-auto w-full justify-center mt-10 items-center'>
-        <input className='border-1 border-blue-800 rounded-t-md px-4 py-2 w-[50%] outline-none' type="text" value={search} onChange={handleSearch} />
+        <input className='border border-blue-800 rounded-t-md px-4 py-2 w-[50%] outline-none' type="text" value={search} onChange={handleSearch} />
         {(search && !loading) && (
           <div className='flex flex-col shadow-2xl border-x-2 border-b-2 border-black w-[50%] max-h-[40rem] overflow-auto'>
             {data?.map(item =>
               <span className='block px-4 py-1 hover:bg-blue-400 hover:text-white hover:cursor-pointer' key={item?.id} onClick={(e) => {
-                setSearch(item?.name)
-                handleSearch(e)
+                e.preventDefault()
+                setSearch(item.name)
               }
               }
               >{item.name}</span>)}
